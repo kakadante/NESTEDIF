@@ -1,14 +1,18 @@
 ﻿@page
+@model NESTEDIF.CallCenterModel
 @{
     ViewData["Title"] = "CallCenter";
 }
 
 <h1>CallCenter</h1>
-@{
-    var q1 = "eeerfer greg rt";
-    Console.WriteLine(q1);
+<br>
 
+<p>Q1. 	Hello, Good Morning/afternoon/evening. My Name is <b>Daniel</b> Calling you from ABC, could I speak to Mr./Mrs/Ms./Dr./Prof. </p>
 
-}
+<input type="radio" id="Yes" name="Option" value="Yes">
+<label for="Yes">Yes</label>
 
-                                                                                                   
+<br>
+<input type="radio" id="No" name="Option" value="No">
+<label for="No">No</label>
+
