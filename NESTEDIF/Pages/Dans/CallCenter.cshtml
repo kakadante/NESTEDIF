@@ -1,0 +1,31 @@
+﻿@page
+@model NESTEDIF.CallCenterModel
+@{
+    ViewData["Title"] = "CallCenter";
+}
+
+    <h1 align="center">=<b><u> Call - Center </u></b>=</h1>
+<h2>ABC Telesales Call Script </h2>
+<br>
+
+<p>Q1. 	Hello, Good Morning/afternoon/evening. My Name is <b>Daniel</b> Calling you from ABC, could I speak to Mr./Mrs/Ms./Dr./Prof. </p>
+
+<a asp-area="" asp-page="fdvvc" id="query1">
+    <input type="radio" id="query1" name="Option" value="Yes">
+    <label for="Yes">Yes</label>
+</a>
+                                                 
+    <br>
+    <a asp-area="" asp-page="Question_2" id="query2">
+        <input type="radio" id="query2" name="Option" value="No">
+        <label for="No">No</label>
+        </a>
+
+
+
+
+        @*<a asp-area="" asp-page="Dans/fdvvc">
+            <input type="radio" id="Yes" name="Option" value="Yes">
+            <label for="Yes">Yes</label>
+        </a>*@
+
